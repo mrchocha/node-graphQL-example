@@ -15,7 +15,7 @@ mongoose.connection.on('disconnected', () => {
     console.log('disconnected');
 });
 
-mongoose.connect('mongodb+srv://rahul:123@cluster0.cruwu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
